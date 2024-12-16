@@ -1,0 +1,20 @@
+{
+    "java.project.referencedLibraries": [
+        "lib/**/*.jar",
+        "/home/kiraft/Documents/lib/postgresql-42.7.4.jar",
+        "/home/kiraft/Downloads/jar_files/javax.servlet-api-4.0.1.jar",
+        "/home/kiraft/Documentos/lib/postgresql-42.7.4.jar",
+        "/home/kiraft/Documentos/lib/servlet-api.jar",
+        "/home/kiraft/Descargas/jfreechart-1.0.19/lib/hamcrest-core-1.3.jar",
+        "/home/kiraft/Descargas/jfreechart-1.0.19/lib/jcommon-1.0.23.jar",
+        "/home/kiraft/Descargas/jfreechart-1.0.19/lib/jfreechart-1.0.19.jar",
+        "/home/kiraft/Descargas/jfreechart-1.0.19/lib/jfreechart-1.0.19-experimental.jar",
+        "/home/kiraft/Descargas/jfreechart-1.0.19/lib/jfreechart-1.0.19-swt.jar",
+        "/home/kiraft/Descargas/jfreechart-1.0.19/lib/jfreesvg-2.0.jar",
+        "/home/kiraft/Descargas/jfreechart-1.0.19/lib/junit-4.11.jar",
+        "/home/kiraft/Descargas/jfreechart-1.0.19/lib/orsoncharts-1.4-eval-nofx.jar",
+        "/home/kiraft/Descargas/jfreechart-1.0.19/lib/orsonpdf-1.6-eval.jar",
+        "/home/kiraft/Descargas/jfreechart-1.0.19/lib/servlet.jar",
+        "/home/kiraft/Descargas/jfreechart-1.0.19/lib/swtgraphics2d.jar"
+    ]
+}

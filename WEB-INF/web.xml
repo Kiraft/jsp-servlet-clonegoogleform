@@ -1,0 +1,96 @@
+<web-app>
+    <!-- Configuración de Servlets -->
+    <servlet>
+        <servlet-name>AlumnoInsert</servlet-name>
+        <servlet-class>AlumnoInsert</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>AlumnoInsert</servlet-name>
+        <url-pattern>/AlumnoInsert</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>PreguntasDelete</servlet-name>
+        <servlet-class>PreguntasDelete</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>PreguntasDelete</servlet-name>
+        <url-pattern>/PreguntasDelete</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>RespuestasUpdate</servlet-name>
+        <servlet-class>RespuestasUpdate</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>RespuestasUpdate</servlet-name>
+        <url-pattern>/RespuestasUpdate</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>ValidateCheck</servlet-name>
+        <servlet-class>ValidateCheck</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ValidateCheck</servlet-name>
+        <url-pattern>/ValidateCheck</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>PreguntasUpdate</servlet-name>
+        <servlet-class>PreguntasUpdate</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>PreguntasUpdate</servlet-name>
+        <url-pattern>/PreguntasUpdate</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>ChartServlet</servlet-name>
+        <servlet-class>ChartServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ChartServlet</servlet-name>
+        <url-pattern>/ChartServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>EncuestaList</servlet-name>
+        <servlet-class>EncuestaList</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>EncuestaList</servlet-name>
+        <url-pattern>/EncuestaList</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>IndexServlet</servlet-name>
+        <servlet-class>IndexServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>IndexServlet</servlet-name>
+        <url-pattern>/index</url-pattern>
+    </servlet-mapping>
+
+    <!-- Filtro de codificación -->
+    <filter>
+        <filter-name>Set Character Encoding Filter</filter-name>
+        <filter-class>org.apache.catalina.filters.SetCharacterEncodingFilter</filter-class>
+        <init-param>
+            <param-name>encoding</param-name>
+            <param-value>UTF-8</param-value>
+        </init-param>
+        <load-on-startup>1</load-on-startup>
+    </filter>
+
+    <filter-mapping>
+        <filter-name>Set Character Encoding Filter</filter-name>
+        <url-pattern>/*</url-pattern>
+    </filter-mapping>
+
+    <!-- Archivo de bienvenida para redirigir a IndexServlet -->
+    <welcome-file-list>
+        <welcome-file>index</welcome-file>
+    </welcome-file-list>
+
+</web-app>
